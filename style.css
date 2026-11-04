@@ -10,3 +10,12 @@
 .projects>.workbench{margin-top:0}.projects>.featured{margin-top:80px}@media(max-width:600px){.projects>.featured{margin-top:55px}}
 .brand-section-heading{margin-top:80px}.brand-section-heading .section-head{margin-bottom:32px}.projects>.brand-section-heading+.featured{margin-top:0}@media(max-width:600px){.brand-section-heading{margin-top:55px}.brand-section-heading .section-head{margin-bottom:25px}}
 .brand-application-slots{grid-template-columns:27fr 72fr 64fr}@media(max-width:600px){.brand-application-slots{grid-template-columns:1fr}}
+/* Mobile applications use the full content width, preserving image ratios. */
+@media(max-width:600px){
+  .brand-application-slots{gap:32px}
+  .brand-application-slots .application-placeholder{width:100%;max-width:none;justify-self:stretch}
+  .application-placeholder>div{width:100%;height:auto;max-width:none;padding:16px}
+  .application-placeholder>div>span{font-size:13px}
+  .application-placeholder small{font-size:11px}
+  .application-placeholder figcaption{text-align:left;font-size:12px;margin-top:13px}
+}
