@@ -163,7 +163,7 @@
 </defs>
 <g clip-path="url(#clip_1)">
 <g clip-path="url(#clip_2)">
-<path transform="matrix(1,0,0,-1,-68,805)" d="M0 0H840V1120H0Z" fill="#f0efeb" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,-68,805)" d="M0 0H840V1120H0Z" fill="#ffffff" fill-rule="evenodd"/>
 <use data-text="N" xlink:href="#font_3_78" transform="matrix(13,0,0,-13,-20,-257.02003)" fill="#222424"/>
 <use data-text="/" xlink:href="#font_3_47" transform="matrix(13,0,0,-13,-10.25,-257.02003)" fill="#222424"/>
 <use data-text="O" xlink:href="#font_3_79" transform="matrix(13,0,0,-13,-4.790001,-257.02003)" fill="#222424"/>
