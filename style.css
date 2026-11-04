@@ -9,3 +9,4 @@
 .brand-application-slots>figure.application-placeholder:last-child{grid-column:auto;grid-row:auto}
 .projects>.workbench{margin-top:0}.projects>.featured{margin-top:80px}@media(max-width:600px){.projects>.featured{margin-top:55px}}
 .brand-section-heading{margin-top:80px}.brand-section-heading .section-head{margin-bottom:32px}.projects>.brand-section-heading+.featured{margin-top:0}@media(max-width:600px){.brand-section-heading{margin-top:55px}.brand-section-heading .section-head{margin-bottom:25px}}
+.brand-application-slots{grid-template-columns:27fr 72fr 64fr}@media(max-width:600px){.brand-application-slots{grid-template-columns:1fr}}
