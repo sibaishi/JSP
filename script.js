@@ -36,8 +36,6 @@ const links = [...document.querySelectorAll('#main-nav a')];
 const sections = links.map(link => document.querySelector(link.getAttribute('href')));
 let scheduled = false;
 function updateScroll() {
-  const max = document.documentElement.scrollHeight - innerHeight;
-  document.querySelector('.reading-progress').style.width = `${max > 0 ? Math.min(100, scrollY / max * 100) : 0}%`;
   let current = null;
   sections.forEach(section => { if (section.getBoundingClientRect().top <= 160) current = section.id; });
   if (innerHeight + scrollY >= document.documentElement.scrollHeight - 10) current = 'contact';
