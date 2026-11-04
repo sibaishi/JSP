@@ -48,7 +48,7 @@ function updateScroll() {
   scheduled = false;
 }
 addEventListener('scroll', () => { if (!scheduled) { scheduled = true; requestAnimationFrame(updateScroll); } }, { passive: true });
-addEventListener('resize', () => { if (innerWidth > 600) closeMenu(); updateScroll(); });
+addEventListener('resize', () => { if (innerWidth > 800) closeMenu(); updateScroll(); });
 updateScroll();
 document.getElementById('copy-wechat').addEventListener('click', async () => {
   const status = document.getElementById('copy-status');
