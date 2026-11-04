@@ -19,3 +19,5 @@
   .application-placeholder small{font-size:11px}
   .application-placeholder figcaption{text-align:left;font-size:12px;margin-top:13px}
 }
+/* Keep the first work section connected to the hero footer. */
+.projects.section{padding-top:40px}@media(max-width:600px){.projects.section{padding-top:28px}}
